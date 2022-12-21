@@ -1,0 +1,65 @@
+.otp-main-container{
+    box-sizing: border-box;
+    position: absolute;
+    left: 13.48%;
+    right: 12.85%;
+    top: 19.79%;
+    bottom: 24.89%;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7.5px);
+    border-radius: 20px;
+}
+
+.otp-badge-container{
+    position: relative;
+    background-image: url("/public/otp-badge-outer.png");
+    left: 46.41%;
+    right: 47.8%;
+    top: 5.85%;
+    bottom: 66.78%;
+    height: 82.5px;
+    width: 66.42px;
+}
+
+.otp-badge-middle{
+    left: 25%;
+    background-image: url("/public/otp-badge-middle.png");
+    height: 31px;
+    position: relative;
+    width: 31px;
+    top: 25%;
+}
+
+.otp-badge-inside{
+    background-image: url("/public/otp-badge-inside.png");
+    height: 20px;
+    width: 18px;
+    top: 14%;
+    position: relative;
+    left : 14%
+}
+
+.digit-group input{
+    width: 30px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* backdrop-filter: blur(7.5px); */
+    box-sizing: border-box;
+    position: relative;
+    left: 13.48%;
+    right: 12.85%;
+    top: 19.79%;
+    bottom: 24.89%;
+    border: 1px solid #1A1A1A;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+
+.digit-group{
+    position: relative;
+    left : 26%;
+    top: 30%;
+    width: 25%;
+    height: 20%;
+}
