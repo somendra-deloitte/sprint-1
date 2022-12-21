@@ -1,13 +1,15 @@
 .otp-main-container{
     box-sizing: border-box;
     position: absolute;
-    left: 13.48%;
-    right: 12.85%;
+    left: 15.48%;
+    /* right: 12.85%; */
     top: 19.79%;
     bottom: 24.89%;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(7.5px);
     border-radius: 20px;
+    height: 55%;
+    width: 60%;
 }
 
 .otp-badge-container{
@@ -40,16 +42,14 @@
 }
 
 .digit-group input{
-    width: 30px;
-    height: 50px;
+    width: 10%;
+    /* height: 50%; */
+    height: inherit;
     background-color: rgba(255, 255, 255, 0.5);
-    /* backdrop-filter: blur(7.5px); */
-    box-sizing: border-box;
     position: relative;
+    box-sizing: border-box;
     left: 13.48%;
     right: 12.85%;
-    top: 19.79%;
-    bottom: 24.89%;
     border: 1px solid #1A1A1A;
     border-radius: 5px;
     margin: 0 2px;
@@ -58,8 +58,50 @@
 
 .digit-group{
     position: relative;
-    left : 26%;
-    top: 30%;
-    width: 25%;
-    height: 20%;
+    left : 35%;
+    top: 15%;
+    width: 40%;
+    height: 30%;
+}
+
+.otp-message-container{
+    position: relative;
+    width: 80%;
+    height: 17%;
+    left: 26%;
+    top: 18%;
+}
+.otp-message-container p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.otp-verify-text{
+    position: relative;
+    width: 40%;
+    height: 2%;
+    left: 30%;
+    top: 10%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.otp-resend-text{
+    display: flex;
+    left: 43%;
+    position: relative;
+}
+
+.otp-help-container{
+    position: relative;
+    display: flex;
+    left: 38%;
+    top: 10%;
 }
