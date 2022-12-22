@@ -1,0 +1,12 @@
+.signup-main-container{
+    box-sizing: border-box;
+    position: absolute;
+    left: 13.48%;
+    right: 12.85%;
+    top: 11%;
+    /* bottom: 24.89%; */
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7.5px);
+    border-radius: 20px;
+    height: 670px; 
+}
