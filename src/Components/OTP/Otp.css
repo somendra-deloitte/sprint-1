@@ -1,15 +1,15 @@
 .otp-main-container{
     box-sizing: border-box;
     position: absolute;
-    left: 15.48%;
-    /* right: 12.85%; */
+    left: 18.48%;
+    right: 24.85%;
     top: 19.79%;
     bottom: 24.89%;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(7.5px);
     border-radius: 20px;
-    height: 55%;
-    width: 60%;
+    /* height: 55%;
+    width: 60%; */
 }
 
 .otp-badge-container{

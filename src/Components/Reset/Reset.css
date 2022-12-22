@@ -1,0 +1,88 @@
+.reset-main-container{
+    position: absolute;
+    box-sizing: border-box;
+    position: absolute;
+    left: 18.48%;
+    right: 24.85%;
+    top: 19.79%;
+    bottom: 24.89%;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7.5px);
+    border-radius: 20px;
+}
+
+.reset-main-text{
+    position: relative;
+    height: 8%;
+    width: 100%;
+    top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.reset-info-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 15%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+}
+
+.reset-email-input-container{
+    position: relative;
+    top: 35%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.reset-email-input-container input{
+    position: absolute;
+    height: 100%;
+    border: none;
+    width: 50%;
+    left: 26%;
+    background-color: inherit;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    text-align: center;
+}
+::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}
+
+.reset-send-link-button{
+    position: relative;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 40%;
+    left: 31%;
+    background: #0F40B7;
+    border: 1px solid #0F40B7;
+    border-radius: 4px;
+}
+
+
+.reset-send-link-button span{
+    color: #FFFF;
+}
