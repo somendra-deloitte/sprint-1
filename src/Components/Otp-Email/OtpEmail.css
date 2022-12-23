@@ -1,76 +1,75 @@
-.otp-email-container{
-    box-sizing: border-box;
-    position: absolute;
-    left: 18.48%;
-    right: 24.85%;
-    top: 19.79%;
-    bottom: 24.89%;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(7.5px);
-    border-radius: 20px;
+.otp-email-container {
+  box-sizing: border-box;
+  position: absolute;
+  left: 18.48%;
+  right: 24.85%;
+  top: 19.79%;
+  bottom: 24.89%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(7.5px);
+  border-radius: 20px;
 }
 
-.otp-mail-box-container{
-    position: relative;
-    top: 10%;
-    position: relative;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    
+.otp-mail-box-container {
+  position: relative;
+  top: 10%;
+  position: relative;
+  height: 20%;
+  display: flex;
+  justify-content: center;
 }
-.otp-mail-box{
-    position: relative;
-    background-image: url("/public/EmailBoxpng.png");
-    height: 100%;
-    width: 25%;
-}
-
-.otp-white-badge{
-    position: relative;
-    height: 50%;
-    top: 0%;
-    background-image: url("/public/white-badge-email.png");
+.otp-mail-box {
+  position: relative;
+  background-image: url("/public/EmailBoxpng.png");
+  height: 74.9%;
+  width: 12.15%;
 }
 
-.otp-resend-text{
-    display: flex;
-    left: 0%;
-    justify-content: center;
-    position: relative;
-    top: 20%;
-}
-.otp-resend-text span{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
+.otp-white-badge {
+  position: relative;
+  height: 20%;
+  top: 0%;
+  background-image: url("/public/white-badge-email.png");
 }
 
-.otp-link-text{
-    position: relative;
-    top: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.otp-resend-text {
+  display: flex;
+  left: 0%;
+  justify-content: center;
+  position: relative;
+  top: 20%;
+}
+.otp-resend-text span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
 }
 
-.otp-link-text span{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #333333;
+.otp-link-text {
+  position: relative;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.otp-recieve-link{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: 50%;
+.otp-link-text span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.otp-recieve-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 50%;
 }
