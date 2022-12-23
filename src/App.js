@@ -5,6 +5,7 @@ import Reset from "./Components/Reset/Reset";
 import Signup from "./Components/Signup/Signup";
 import SignIn from "./Components/SignIn/SignIn";
 import Forgotpass from "./Components/ForgotPass/Forgotpass";
+import OtpEmail from "./Components/Otp-Email/OtpEmail";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route exact path = "/signup" element = {<Signup></Signup>}></Route>
           <Route exact path = "/signin" element = {<SignIn></SignIn>}></Route>
           <Route exact path = "/fp" element = {<Forgotpass></Forgotpass>}></Route>
+          <Route exact path = "/reset-email" element = {<OtpEmail></OtpEmail>}></Route>
         </Routes>
       </Router>
       
